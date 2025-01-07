@@ -2,7 +2,7 @@ import express, { NextFunction } from "express";
 import { Request, Response } from "express";
 import route from "./route/userRoute";
 import cors from "cors"
-const PORT = process.env.PORT || 4001;
+const PORT = process.env.PORT || 4002;
 console.log(PORT, "Port is showing here");
 const app = express();
 

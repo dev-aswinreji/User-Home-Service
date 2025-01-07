@@ -12,13 +12,14 @@ WORKDIR /app
 
 # Copy Deno configuration files and cache dependencies
 COPY package.json yarn.lock /app/
+
 RUN yarn install
 
 # Copy the entire project after caching dependencies
 COPY . /app/
 
 # Expose the necessary port
-EXPOSE 4001
+EXPOSE 4002
 
 # Command to run the application, granting necessary permissions
 CMD ["yarn", "start"]
