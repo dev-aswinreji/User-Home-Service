@@ -1,0 +1,21 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "User Home",
+  "main": "app.ts",
+  "author": "Aswin Reji",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/app.ts"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  }
+}
